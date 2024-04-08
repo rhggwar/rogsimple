@@ -62,7 +62,7 @@ local data = game.Players:GetPlayers()
 function noob(player)
 	local character
 	repeat wait() until player.Character
-	local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(98, 37, 209), 0.3, 3)
+	local handler = makemarker(guimain, player.Character:WaitForChild(SelectedPart), Color3.fromRGB(32, 245, 82), 0.3, 3)
 	handler.Name = player.Name
 	player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild(SelectedPart) end)
 
