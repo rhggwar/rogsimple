@@ -95,7 +95,7 @@ spawn(function()
 	end
 	placemarker.Transparency = 0.85
 	if Settings.rewrittenmain.DOT then
-		makemarker(placemarker, placemarker, Color3.fromRGB(98, 37, 209), 0.40, 0)
+		makemarker(placemarker, placemarker, Color3.fromRGB(32, 245, 82), 0.40, 0)
 	end
 end)
 
